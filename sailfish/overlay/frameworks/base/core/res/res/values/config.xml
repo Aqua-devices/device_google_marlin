@@ -29,4 +29,13 @@
     <!-- Default screen brightness for VR setting. Default value: 0x58 => 88. -->
     <integer name="config_screenBrightnessForVrSettingDefault">88</integer>
 
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The Google provider -->
+        <item>com.google.android.gms</item>
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+    </string-array>
+
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
 </resources>
