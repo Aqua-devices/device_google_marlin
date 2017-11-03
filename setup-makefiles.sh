@@ -23,9 +23,9 @@ DEVICE=marlin
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-PIXELDUST_ROOT="$MY_DIR"/../../..
+AQUARIOS_ROOT="$MY_DIR"/../../..
 
-HELPER="$PIXELDUST_ROOT"/vendor/pixeldust/tools/extract_utils.sh
+HELPER="$AQUARIOS_ROOT"/vendor/aquarios/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -50,7 +50,7 @@ EOF
 }
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$PIXELDUST_ROOT"
+setup_vendor "$DEVICE" "$VENDOR" "$AQUARIOS_ROOT"
 
 # Copyright headers and guards
 write_marlin_headers
