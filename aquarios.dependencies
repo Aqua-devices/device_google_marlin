@@ -12,7 +12,7 @@
  {
    "repository":  "vendor_pixelgapps",
    "target_path": "vendor/pixelgapps",
-   "remote": "gitlab"
+   "remote": "gitlab",
    "branch":      "a9"
  }
 ]
