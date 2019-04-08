@@ -8,11 +8,5 @@
    "repository":  "proprietary_vendor_google",
    "target_path": "vendor/google",
    "branch":      "a9-caf"
- },
- {
-   "repository":  "vendor_pixelgapps",
-   "target_path": "vendor/pixelgapps",
-   "remote": "gitlab",
-   "branch":      "a9"
  }
 ]
