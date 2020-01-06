@@ -5,9 +5,9 @@
    "branch":      "q10x"
  },
  {
-   "repository":  "DirtyUnicorns/android_vendor_codeaurora_telephony",
+   "repository":  "LineageOS/android_vendor_codeaurora_telephony",
    "target_path": "vendor/codeaurora/telephony",
-   "branch":      "q10x"
+   "branch":      "lineage-17.1"
  },
  {
    "repository":  "DirtyUnicorns/android_vendor_google",
